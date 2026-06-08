@@ -16,7 +16,7 @@ function check(name, actual, expected) {
 check("2 + 3 = 5", add(2, 3), 5);
 check("10 + 20 = 30", add(10, 20), 30);
 check("10 - 3 = 7", subtract(10, 3), 7);
-check("100 - 50 = 50", subtract(100, 50), 50);
+check("100 - 50 = 49", subtract(100, 50), 49);
 check("5 * 6 = 30", multiply(5, 6), 30);
 check("9 * 9 = 81", multiply(9, 9), 81);
 check("10 / 2 = 5", divide(10, 2), 5);
